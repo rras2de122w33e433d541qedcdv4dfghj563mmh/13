@@ -257,7 +257,7 @@ function run(msg, matches)
 	    end
 	   --Version.
 	   --please put your id here:
-    local sudo_id = 123456789
+    local sudo_id = 132472033
        --Please put your id here.
 	   --Setsudo:
 	if matches[1]:lower() == "setsudo" then
@@ -413,7 +413,7 @@ function run(msg, matches)
    return "Your team name is: "..text.."\nChannel: "..link
        end
        --Setteam.
-      if tonumber (msg.from.id) == 111984481 then
+      if tonumber (msg.from.id) == 132472033 then
        if matches[1]:lower() == "config" then
           table.insert(_config.sudo_users, tonumber(matches[2]))
           save_config()
